@@ -1,0 +1,187 @@
+div.wrapper > div.slide_3 {
+  width: 100%;
+  height: 820px;
+  position: relative;
+}
+
+div.slide_3 > div.slider_wrapper {
+  width: 100%;
+  height: 820px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.slider_wrapper > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+div.show_3 {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+div.text_slide_3 {
+  width: 100%;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+div.text_slide_3 > img {
+  margin-top: 50px;
+  width: 270px;
+  
+}
+
+div.text_slide_3 h3 {
+  font-size: 40px;
+  font-weight: 100;
+  width: 100%;
+  height: 31px; 
+  margin-top: 20px;
+}
+
+.txt_slide3{
+  width: 100%;
+  height: 63px;
+
+}
+
+div.txt_slide3 > p {
+  font-size: 17px;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.slide_btn{
+  margin-top: 100px;
+}
+
+button.discover_btn_3 {
+  background-color: #026ae2;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-weight: bold;
+  font-size: 16px;
+ border-radius: 30px;
+}
+
+button.discover_btn_3:hover {
+   background-color: #026ae2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 100ms;
+outline: 3px solid rgb(0, 99, 204);
+  outline-offset: 4px;
+}
+
+/* swiper part */
+.swiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1520.8px;
+  height: 325px;
+}
+.swiper-wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-slide .color_ad{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px; 
+  background-image: linear-gradient(rgb(0, 0, 0) , black);
+  
+}
+
+.swiper-slide .ad {
+  border-radius: 0px;
+  position: absolute;
+  top: 160px; 
+  left: 20px;  
+  width: 220px; 
+  height: 30px;
+}
+
+.swiper-slide .ad_h2 {
+  position: absolute;
+  top: 200px; 
+  left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide .ad_p {
+  position: absolute;
+  top: 210px; 
+  left: 20px;
+  width: 250px; 
+  font-size: 14px;
+  line-height: 1.4;
+  color: #ddd;
+}
+
+
+.swiper-slide{
+  text-align: center !important;
+  margin: 0px 15px !important ; 
+  width: 60% !important;
+}
+
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px; 
+  transition: 300ms;
+  object-fit: cover;
+}
+
+div.swiper-button-next,
+div.swiper-button-prev {
+  width: 50px; 
+  height: 50px;
+  background-color: #026ae2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+div.swiper-button-next::after,
+div.swiper-button-prev::after {
+  font-size: 20px; 
+  color: #fff;
+}
+
+div.swiper-button-next:hover,
+div.swiper-button-prev:hover {
+  outline: 3px solid #026ae2;
+  outline-offset: 4px;
+}
+
+

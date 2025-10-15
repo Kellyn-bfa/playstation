@@ -1,0 +1,138 @@
+div.wrappper > div.celebration {
+  position: relative;
+  width: 100%;
+  height: 498px;
+}
+
+div.celebration > div.cele_wrapper {
+  position: relative;
+  width: 100%;
+  height: 498px;
+  overflow: hidden;
+}
+
+div.cele_wrapper > div.cele_pic {
+  position: relative;
+  width: 100%;
+  height: 498px;
+  z-index: 1;
+}
+
+div.cele_pic > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div.cele_wrapper > div.cele_news {
+  background-color: rgba(255, 255, 255, 0.803);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+div.cele_news > div.cele_txt {
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+div.cele_txt > h2{
+   margin-top: 180px ;
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 100;
+}
+
+div.cele_txt > p{
+  padding-left: 170px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: rgb(82, 77, 77);
+  white-space: pre-wrap;
+}
+
+div.cele_btn > button.btn_c1{
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  background-color: #007be0;
+  border: none;
+  border-radius: 20px;
+  padding: 7px;
+  border: 5px solid transparent;
+  border-radius: 26px;
+  transition: 100ms;
+}
+
+div.cele_btn > button.btn_c1:hover {
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  background-color: rgb(4, 87, 188);
+  cursor: pointer;
+  transition:200s;
+  border: none;
+  border-radius: 20px;
+  padding: 7px;
+  border: 5px solid transparent;
+  border-radius: 26px;
+  transition: 100ms;
+  outline: 3px solid rgb(4, 87, 188);
+  outline-offset: 3px;
+}
+
+
+div.cele_btn > button.btn_c2 {
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  background-color: #007be0;
+  border: none;
+  border-radius: 20px;
+  padding: 7px;
+  border: 5px solid transparent;
+  border-radius: 26px;
+  transition: 100ms;
+}
+
+div.cele_btn > button.btn_c2:hover {
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  background-color: rgb(4, 87, 188);
+  cursor: pointer;
+  transition:200s;
+  border: none;
+  border-radius: 20px;
+  padding: 7px;
+  border: 5px solid transparent;
+  border-radius: 26px;
+  transition: 100ms;
+  outline: 3px solid rgb(4, 87, 188);
+  outline-offset: 3px;
+}
+
+
+div.cele_news > div.cele_img {
+  margin-top: 3%;
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+div.cele_img > img {
+  max-width: 64%;
+  height: auto;
+  display: block;
+  margin: 10%;
+}

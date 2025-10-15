@@ -1,0 +1,39 @@
+div.social{
+    position: relative;
+    width: 100%;
+    height: 356px;
+    padding-top: 48px;
+    background-color: rgb(244, 244, 244);
+}
+
+div.m_txt{
+    width: 100%;
+    height: 40px;
+}
+
+div.m_txt > p{
+    height: 100%;
+    margin-left: 40%;
+    font-size: 30px;
+    font-family: medium;
+    color: black;
+}
+
+div.m_img {
+    position: absolute;
+    width: 100%;
+    height: 245px;
+text-align: center;
+    padding-bottom: 60px;
+}
+div.m_img > a{
+    position: relative;
+    width: 100%;
+    height: 117px;
+     object-fit: contain;
+}
+a > img{
+ width: 117px;
+ height: 117px;
+
+}

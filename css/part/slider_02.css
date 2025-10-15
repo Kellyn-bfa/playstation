@@ -1,0 +1,198 @@
+/* ───── Container ───── */
+.slider-container_01 {
+  width: 100%;
+  padding: 48px;
+  margin-top: 25px;
+}
+
+.main-slider_01 {
+  display: flex;
+  height: 487px;
+  margin-bottom: 24px;
+}
+
+/* ───── Text Area ───── */
+.text-area_01 {
+  display: block;
+  font-family: light;
+  margin: 5%;
+}
+
+.text-area_01 > p {
+  color: #0068bd;
+  font-size: 20px;
+  margin-top: 10%;
+}
+
+.text-area_01 > h2 {
+  color: #000;
+  font-size: 40px;
+}
+
+.text-area_01 > h4 {
+  color: #000;
+  font-size: 10px;
+  margin: 3% 0;
+}
+
+.text-area_01 > h5 {
+  color: #000;
+  font-size: 13px;
+  margin: 5% 0 3%;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: left;
+  gap: 12px;
+}
+
+.text-area_01 .btn1_s2 {
+  background-color: #1a6ce0;
+  color: white;
+  width: 110px;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+}
+
+.text-area_01 .btn2_s2 {
+  margin-left: 10px;
+  background-color: #dc5613;
+  color: white;
+   width: 110px;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn2_s2:hover{
+    background-color: #b64d19;
+outline: 3px solid #b64d19;
+  outline-offset: 4px;
+}
+
+.btn1_s2:hover{
+    background-color: #185dbd;
+  outline: 3px solid #185dbd;
+  outline-offset: 4px;
+}
+
+/* ───── Image Area ───── */
+.image-area_01 {
+  width: 100%;
+  position: relative;
+  overflow: visible;
+}
+
+.slide_01 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.slide_01.active_01 {
+  opacity: 1;
+  z-index: 1;
+}
+
+.slide_01 img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ───── Thumbnails ───── */
+.thumbnail-slider-wrapper_01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.thumbnail-slider_01 {
+  display: flex;
+  border-radius: 12px;
+  height: 120px;
+  flex: 1;
+  gap: 8px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.thumb_01 {
+  flex: 0 0 auto;
+  width: 214px;
+  height: 120px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 0.3s;
+}
+
+.thumb_01.active_01 {
+  border-color: #0047ab;
+  background: white;
+}
+
+.thumb_01 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ───── Navigation Buttons ───── */
+.nav-btn_01 {
+  width: 50px;
+  height: 50px;
+  background-color: #0279da;
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition:200ms;
+}
+
+.nav-btn_01:hover {
+  border-radius: 50%;
+    font-size: 24px;
+  background-color: #0279da; 
+}
+
+.nav-btn_01:disabled {
+  border-radius: 50%;
+    font-size: 24px;
+  background-color: #0047ab49;
+  cursor: not-allowed;
+}
+
+/* ───── Indicators (dots) ───── */
+.slider-indicators-wrapper_01 {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.slider-indicator_01 {
+  width: 17px;
+  height: 2px;
+  background-color: #9d9d9d;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slider-indicator_01.active_01 {
+  background-color: #0047ab;
+}

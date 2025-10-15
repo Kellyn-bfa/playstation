@@ -1,0 +1,125 @@
+
+.slCont_04 {
+  width: 100%;
+  height: 667px;
+  overflow: hidden;
+  position: relative;
+  padding: 40px 0;
+  font-family: medium;
+}
+
+.slTrack_04 {
+  display: flex;
+  gap: 10px;
+  transition: 200ms;
+  will-change: transform;
+  flex-wrap: nowrap; 
+}
+
+.sl_04 {
+   flex-shrink: 0;
+  width: 444px;
+  height: 490px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 200ms;
+}
+
+.sl_04:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* --- عکس بالا --- */
+.slImgWrap_04 {
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+}
+
+.slImg_04 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slImgWrap_04::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));
+}
+
+/* --- متن --- */
+.ttl_04 {
+  font-size: 17px;
+  margin: 16px;
+  margin-top: 35px;
+}
+
+.subTtl_04 {
+  font-size: 12px;
+  font-weight: 100;
+  margin: 0 16px;
+  line-height: 1.4;
+  max-height: 3.9em; 
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+/* --- پروفایل --- */
+.pfWrap_04 {
+  display: flex;
+  align-items: center;
+  margin: 16px;
+  margin-top: 50px;
+}
+
+.pfp_04 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.pfTxt_04 {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.pfName_04 {
+  font-weight: bold;
+}
+
+.pfInfo_04 {
+  font-size: 12px;
+  color: gray;
+}
+
+.pfDate_04 {
+  font-size: 12px;
+  color: #999;
+}
+
+/* --- دکمه ها --- */
+.slBtn_04 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #119cf2;
+  border: none;
+  padding: 20px 24px;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+.slPrev_04 { left: 10px; }
+.slNext_04 { right: 10px; }
+

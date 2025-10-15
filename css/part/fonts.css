@@ -1,0 +1,33 @@
+@font-face{
+     font-family: medium;
+     src: url(/fonts/SST-Medium-latin.1167b.woff2);
+}
+
+@font-face{
+     font-family: small;
+     src: url(/fonts/SST-Roman-latin-ext.5e47e.woff2);
+}
+
+@font-face{
+     font-family: serif;
+     src: url(/fonts/SST-Roman-latin.40348.woff2);
+}
+
+@font-face{
+     font-family: light;
+     src: url(/fonts/SST-Light-latin.3cce6.woff2);
+}
+
+@font-face{
+     font-family: Italic;
+     src: url(/fonts/SST-Italic-latin.2a08d.woff2);
+}
+
+@font-face{
+     font-family: bold;
+     src: url(/fonts/SST-Bold-latin.7c968.woff2);
+}
+@font-face{
+     font-family: menu;
+     src: url(/fonts/sharedNav.woff);
+}
